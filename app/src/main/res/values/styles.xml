@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定义属性
+底盘的颜色
+进度条的颜色
+进度条粗细
+文字内容
+文字颜色
+文字大小-->
+    <declare-styleable name="HQHCountDownView">
+        <attr name="bg_color" format="color"/>
+        <attr name="progressbar_color" format="color"/>
+        <attr name="progressbar_width" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_content" format="string"/>
+        <attr name="text_size" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
